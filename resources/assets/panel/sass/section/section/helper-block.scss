@@ -1,0 +1,22 @@
+.helper-block {
+  padding: 0.5rem;
+  background: $base-color;
+  border-radius: $border-radius-base;
+  margin-bottom: 2rem;
+
+  .breadcrumb {
+    padding: 0.5rem;
+  }
+
+  ol.breadcrumb {
+    background: $brand-primary;
+
+    li {
+      color: font-color($brand-primary);
+
+      a {
+        color: $brand-info;
+      }
+    }
+  }
+}

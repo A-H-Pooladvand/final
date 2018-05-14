@@ -1,0 +1,30 @@
+html, body, section {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  font-size: 15px;
+  font-family: Vazir, sans-serif;
+  text-align: justify;
+}
+
+p {
+  cursor: default;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+hr {
+  margin: 1.5rem 0;
+  border: 0;
+  border-top: 1px solid #DDD;
+}

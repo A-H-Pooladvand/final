@@ -1,0 +1,47 @@
+.nav-bar {
+  height: 60px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  @include box-shadow(2px 0 3px rgba(0, 0, 0, .5));
+  line-height: 60px;
+  padding-left: 1rem;
+  background: $base-color;
+  z-index: 10000;
+
+  .hamburger {
+    width: 40px;
+    height: 30px;
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    @include translate(0, -50%);
+  }
+
+  .profile {
+    img {
+      border-radius: 50%;
+      cursor: pointer;
+    }
+
+    > ul {
+      right: auto;
+      left: 0;
+
+      li {
+
+        a {
+          padding: 0.75rem 0.5rem;
+        }
+
+        .divider {
+          margin: 0;
+        }
+      }
+    }
+  }
+
+  .brand-name {
+    width: 220px;
+  }
+}

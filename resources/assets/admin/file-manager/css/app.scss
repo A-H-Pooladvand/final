@@ -1,0 +1,54 @@
+@import "variables";
+@import "functions";
+@import "mixins";
+// Vazir-Font
+@import "~vazir-font/dist/font-face";
+// Bootstrap
+@import "~bootstrap-sass/assets/stylesheets/bootstrap";
+// Bootstrap-rtl
+@import "~bootstrap-rtl/dist/css/bootstrap-flipped";
+// Font-Awesome
+@import "~font-awesome/scss/font-awesome";
+// Cropper
+@import "../../../../../public/css/important/filemanager/css/cropper.min.css";
+// lfm
+@import "../../../../../public/css/important/filemanager/css/lfm.css";
+// MFB
+@import "../../../../../public/css/important/filemanager/css/mfb.css";
+// DropZone
+@import "../../../../../public/css/important/filemanager/css/dropzone.min.css";
+// Jquery-ui
+@import "../../../../../public/css/important/filemanager/css/jquery-ui.min.css";
+
+.crop-container,
+.img-preview {
+  direction: ltr !important;
+}
+
+.img-preview--wrapper {
+  margin-bottom: 1.5rem !important;
+}
+
+.mfb-component__main-icon--resting {
+  position: absolute;
+  font-size: 18px;
+  text-align: center;
+  line-height: 56px;
+  width: 100%;
+}
+
+.modal-footer {
+  text-align: right;
+}
+
+.mfb-component__wrap {
+
+  .fa {
+    line-height: 56px;
+  }
+}
+
+.table-list-view th {
+  font-size: 12px;
+  text-align: center;
+}

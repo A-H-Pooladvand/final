@@ -1,0 +1,91 @@
+.sidebar {
+  -webkit-animation-duration: .5s;
+  animation-duration: .5s;
+  -webkit-animation-delay: 0s;
+  animation-delay: 0s;
+  width: 0;
+  position: absolute;
+  top: 60px;
+  min-height: 100%;
+  z-index: 1000;
+
+
+  &.active {
+    width: 60%;
+  }
+
+  > ul {
+    background: $base-color;
+
+    li {
+      position: relative;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+      overflow: hidden;
+
+      &:last-child {
+        border-bottom: none;
+      }
+
+      a {
+        position: relative;
+        display: block;
+        padding: 1rem 0.75rem;
+        font-size: 1.4rem;
+        color: $white;
+
+        &:after {
+          content: '';
+          position: absolute;
+          border-left: 3px solid #00d1b2;
+          top: 0;
+          height: 0;
+          right: 100%;
+          @include translate(100%, 0);
+        }
+
+        &:hover {
+          color: $brand-info;
+
+          &:after {
+            height: 100%;
+          }
+        }
+
+        i {
+          line-height: inherit;
+        }
+
+        .fa-fw {
+          width: 3rem;
+        }
+      }
+
+      ul {
+        display: none;
+
+        li {
+          border-bottom: none;
+
+          a {
+            padding: 1rem 4rem;
+          }
+        }
+      }
+    }
+  }
+}
+
+// ----- Responsive Layouts -----
+// If page width is higher than xs
+@media (min-width: $screen-md-min) {
+
+  .sidebar {
+    width: 220px;
+    height: 100%;
+  }
+
+  #admin-layout {
+    margin-right: 220px;
+  }
+
+}

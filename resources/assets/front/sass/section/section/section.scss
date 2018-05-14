@@ -1,0 +1,28 @@
+#admin-layout {
+  margin: 70px 1rem 1rem 1rem;
+  height: 100%;
+  padding: 1rem;
+
+  .error {
+    font-size: 70%;
+    color: crimson;
+  }
+
+  .ajax-error-message {
+    padding: 1rem;
+    background: $brand-danger;
+    color: font-color($brand-danger);
+    border: none;
+
+    button {
+      left: 0;
+      color: font-color($base-color);
+      opacity: 1;
+      background: $base-color;
+      width: 20px;
+      height: 20px;
+      border-radius: 4px;
+      outline: none;
+    }
+  }
+}

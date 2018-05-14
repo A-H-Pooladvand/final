@@ -1,0 +1,69 @@
+.auth__wrapper {
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-image: url('../../../../../../public/files/_root/login.jpg');
+  background-size: cover;
+
+  .fa-user-secret,
+  .fa-sign-in,
+  .fa-lock,
+  .fa-envelope {
+    position: absolute;
+    right: 50%;
+    bottom: 100%;
+    border-radius: 50%;
+    background: white;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    padding: 1rem;
+    border: 4px solid $brand-info;
+    @include translate(50%, 50%);
+  }
+  .fa-envelope {
+    font-size: 6rem;
+  }
+
+  .form-group {
+    i, h3 {
+      text-shadow: -2px 2px 7px #ccc;
+    }
+  }
+
+  .container {
+    height: 100%;
+
+    form {
+      height: 100%;
+      > .row {
+        height: 100%;
+
+        > .col-md-6 {
+          height: 100%;
+        }
+      }
+    }
+
+    .col-md-6 {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+
+      .auth__from {
+        border: 4px solid $brand-info;
+        width: 100%;
+        background: $white;
+        padding: 1rem;
+        @include box-shadow(3px 3px 50px -10px $gray-darker);
+        border-radius: $border-radius-base;
+
+        a {
+          padding: 0;
+        }
+      }
+    }
+  }
+}

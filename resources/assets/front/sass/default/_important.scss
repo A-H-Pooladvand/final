@@ -1,0 +1,234 @@
+$spaceamounts: ('0.5', '0.75', '1', '1.5', '2', '2.5', '3', '4', '5', '6');
+$sides: (top, right, bottom, left);
+
+@each $space in $spaceamounts {
+  @each $side in $sides {
+    .m-#{str-slice($side, 0, 1)}-#{str-replace($space, '.', '-')} {
+      margin-#{$side}: #{$space}rem !important;
+    }
+
+    .p-#{str-slice($side, 0, 1)}-#{str-replace($space, '.', '-')} {
+      padding-#{$side}: #{$space}rem !important;
+    }
+  }
+}
+
+// Jquery-Confirm
+
+.jconfirm .jconfirm-box div.jconfirm-content-pane .jconfirm-content {
+  overflow: visible !important;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.position-relative {
+  position: relative;
+}
+
+.inline-block {
+  display: inline;
+}
+
+.display-none {
+  display: none;
+}
+
+.control-label {
+  font-size: 80%;
+}
+
+.input-group {
+
+  a {
+    border-radius: 0 $border-radius-base $border-radius-base 0 !important;
+  }
+
+  input {
+    border-radius: $border-radius-base 0 0 $border-radius-base !important;
+  }
+}
+
+.table-show {
+  thead {
+    th {
+
+      &:first-child {
+        text-align: center;
+        background: $brand-primary;
+        color: font-color($brand-primary);
+      }
+
+    }
+  }
+
+  tbody {
+    th {
+      text-align: center;
+      font-weight: 500;
+      background: $brand-primary;
+      color: font-color($brand-primary);
+      width: 170px;
+      border-top: 1px solid lighten($brand-primary, 15) !important;
+    }
+  }
+}
+
+.bootstrap-select.btn-group .btn .caret {
+  position: absolute;
+  top: 50%;
+  left: 12px;
+  right: auto; /* this line should be added to override the default behavior */
+  margin-top: -2px;
+  vertical-align: middle;
+}
+
+.bootstrap-select {
+  .filter-option {
+    text-align: right !important;
+  }
+}
+
+.bootstrap-select > .dropdown-toggle {
+  padding-left: 25px;
+  padding-right: 15px;
+}
+
+// JEasyUi
+.datagrid {
+
+  .fa {
+    font-size: 1.5rem;
+    margin-left: 0.5rem;
+  }
+
+  .l-btn-text {
+    margin-right: 2.2rem !important;
+  }
+
+  .datagrid-filter-btn {
+    padding: 5px 7px 0 0;
+  }
+}
+
+// Fixing Input-Groups
+.input-group {
+
+  .input-group-addon {
+    border-right: 1px solid #ccc;
+    border-left: 1px solid;
+    border-radius: 0 $border-radius-base $border-radius-base 0;
+  }
+}
+
+// Selectize
+
+.selectize-control.multi .selectize-input > div {
+  background: $brand-info !important;
+  color: font-color($brand-info) !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

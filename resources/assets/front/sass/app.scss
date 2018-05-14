@@ -1,0 +1,18 @@
+@import "variables";
+@import "functions";
+@import "mixins";
+
+// Vazir-Font
+@import "~vazir-font/dist/font-face";
+// Bootstrap
+@import "~bootstrap-sass/assets/stylesheets/bootstrap";
+// Bootstrap-Select
+@import "~bootstrap-select/dist/css/bootstrap-select";
+// Bootstrap-rtl
+@import "~bootstrap-rtl/dist/css/bootstrap-flipped";
+// Font-Awesome
+@import "~font-awesome/scss/font-awesome";
+
+@import "default/init";
+@import "header/init";
+@import "section/init";

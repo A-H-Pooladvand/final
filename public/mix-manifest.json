@@ -1,0 +1,22 @@
+{
+    "/js/front.js": "/js/front.js",
+    "/js/admin.js": "/js/admin.js",
+    "/css/admin.css": "/css/admin.css",
+    "/css/file-manager.css": "/css/file-manager.css",
+    "/css/panel.css": "/css/panel.css",
+    "/css/front.css": "/css/front.css",
+    "/assets/easyui/easyui.css": "/assets/easyui/easyui.css",
+    "/js/panel.js": "/js/panel.js",
+    "/assets/tinymce/tinymce.js": "/assets/tinymce/tinymce.js",
+    "/assets/easyui/easyui.js": "/assets/easyui/easyui.js",
+    "/assets/location-picker/location-picker.js": "/assets/location-picker/location-picker.js",
+    "/js/file-manager.js": "/js/file-manager.js",
+    "/assets/jquery-confirm/jquery-confirm.js": "/assets/jquery-confirm/jquery-confirm.js",
+    "/assets/jquery-confirm/jquery-confirm.css": "/assets/jquery-confirm/jquery-confirm.css",
+    "/assets/tinymce/langs/fa_IR.js": "/assets/tinymce/langs/fa_IR.js",
+    "/assets/easyui/filter.png": "/assets/easyui/filter.png",
+    "/assets/datepicker/datepicker.js": "/assets/datepicker/datepicker.js",
+    "/assets/datepicker/datepicker.css": "/assets/datepicker/datepicker.css",
+    "/assets/selectize/selectize.js": "/assets/selectize/selectize.js",
+    "/assets/selectize/selectize.css": "/assets/selectize/selectize.css"
+}
